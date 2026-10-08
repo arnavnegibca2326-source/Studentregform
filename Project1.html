@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Registration Form</title>
+</head>
+
+<body>
+
+    <h1 align="center">Student Registration Form</h1>
+
+    <form>
+
+        <label>First Name:</label>
+        <input type="text" name="firstname" placeholder="Enter First Name">
+        <br><br>
+
+        <label>Last Name:</label>
+        <input type="text" name="lastname" placeholder="Enter Last Name">
+        <br><br>
+
+        <label>Date of Birth:</label>
+        <input type="date" name="dob">
+        <br><br>
+
+        <label>Gender:</label>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <input type="radio" name="gender" value="other"> Other
+        <br><br>
+
+        <label>Email:</label>
+        <input type="email" name="email" placeholder="Enter Email">
+        <br><br>
+
+        <label>Mobile Number:</label>
+        <input type="tel" name="mobile" placeholder="Enter Mobile Number">
+        <br><br>
+
+        <label>Address:</label>
+        <textarea name="address" rows="4" cols="30"
+                  placeholder="Enter Your Address"></textarea>
+        <br><br>
+
+        <label>City:</label>
+        <input type="text" name="city" placeholder="Enter City">
+        <br><br>
+
+        <label>State:</label>
+        <select name="state">
+            <option>Select State</option>
+            <option>Uttar Pradesh</option>
+            <option>Delhi</option>
+            <option>Uttarakhand</option>
+            <option>Haryana</option>
+            <option>Rajasthan</option>
+        </select>
+        <br><br>
+
+        <label>Course:</label>
+        <select name="course">
+            <option>Select Course</option>
+            <option>BCA</option>
+            <option>BBA</option>
+            <option>B.Tech</option>
+            <option>MCA</option>
+            <option>MBA</option>
+        </select>
+        <br><br>
+
+        <label>Hobbies:</label>
+        <input type="checkbox" name="hobby" value="reading"> Watching Movies
+        <input type="checkbox" name="hobby" value="sports"> Sports
+        <input type="checkbox" name="hobby" value="music"> Music
+        <input type="checkbox" name="hobby" value="coding"> Coding
+        <br><br>
+
+        <label>Upload Photo:</label>
+        <input type="file" name="photo">
+        <br><br>
+
+        <input type="submit" value="Register">
+        <input type="reset" value="Reset">
+
+    </form>
+
+</body>
+</html>
